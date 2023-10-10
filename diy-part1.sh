@@ -20,5 +20,5 @@ echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages.git' >>feeds.con
 
 # echo '添加omcproxy软件源'
 #git clone https://github.com/smsmail2022/luci-app-omcproxy package/luci-app-omcproxy
-git clone -b 18.06 https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
+#git clone -b 18.06 https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
 #git clone https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
