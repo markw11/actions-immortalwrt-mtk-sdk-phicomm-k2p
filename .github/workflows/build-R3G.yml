@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/smsmail2022/padavanonly-immortalwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: seeds/20231004.config
+  CONFIG_FILE: seeds/r3g.config
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   DIY_P1_SH: diy-part1.sh
