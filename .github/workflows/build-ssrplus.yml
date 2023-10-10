@@ -112,7 +112,7 @@ jobs:
 
     - name: Upload bin directory
       uses: actions/upload-artifact@main
-      if: steps.compile.outputs.status == 'success'
+      if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true' && !cancelled()
       with:
         name: ImmortalWrt_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: immortalwrt/bin
