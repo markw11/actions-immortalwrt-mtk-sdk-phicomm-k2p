@@ -18,9 +18,9 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-
+# https://github.com/padavanonly/immortalwrt  https://github.com/markw11/immortalwrt-hnat-k2p-r3g
 env:
-  REPO_URL: https://github.com/markw11/immortalwrt-hnat-k2p-r3g
+  REPO_URL: https://github.com/padavanonly/immortalwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: seeds/r3g.config
